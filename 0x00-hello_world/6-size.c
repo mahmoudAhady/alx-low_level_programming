@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- *main - entry point
- *
- *description:
- *
- *return is always 0
+ * main - this sdesribes the main function of the code
+ * Return: 0
 */
 
 int main(void)
