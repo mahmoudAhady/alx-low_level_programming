@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- *Description : using sizeof to print the size of various types
- *
- *Return : Always 0 (success)
- */
+main - entry point
+description:
+return is always 0
+*/
 
-int main()
+int main(void)
 {
 printf("size of a char: %lu byte(s)\n", sizeof(char));
 printf("size of an int: %lu byte(s)\n", sizeof(int));
