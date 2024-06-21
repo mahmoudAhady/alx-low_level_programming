@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *main -description for size of each c file
- *return = 0
+ *main - entry point
+ *description: for size of each c file
+ *return:always  0 (success)
  */
 int main(void)
 {
