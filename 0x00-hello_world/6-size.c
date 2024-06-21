@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
-main - entry point
-description:
-return is always 0
+ *main - entry point
+ *
+ *description:
+ *
+ *return is always 0
 */
 
 int main(void)
