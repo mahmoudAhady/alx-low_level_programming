@@ -1,24 +1,23 @@
-#include <stdio.h>
-
+#include<stdio.h>
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ *main - entry point
  *
- * Return: Always 0.
+ *Description: print all single digits
+ *
+ *Return: always 0 (success)
  */
 
 int main(void)
 {
-	char letter;
+int digit = 0;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+while (digit <= 9)
+{
+printf("%i", digit);
+digit++;
+}
+printf("\n");
 
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-
-	putchar('\n');
-
-	return (0);
+return (0);
 }
