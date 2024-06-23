@@ -1,10 +1,10 @@
 #include <unistd.h>
 
 /**
- *main - entry point
- *
- *description: write a quote
- *return: 1 (fail)
+*main - entry point
+*description: write a quote
+*
+*Return: 1 (fail)
 */
 
 int main(void)
