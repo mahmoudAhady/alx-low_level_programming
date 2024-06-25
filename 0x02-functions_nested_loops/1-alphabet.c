@@ -1,16 +1,19 @@
 #include "main.h"
 /**
-*main - entry point
+*print_alphabet - entry point
 *
 *Description: print alphabets in small charachters
 *
-*Return: Always 0 (success)
+*print_alphabet - utilizes on the _putchar function to print a - z
+*
+*Return:void (no return value)
 */
-void print_alphabet (void)
-  
+void print_alphabet(void)
 {
 int c;
-for(c = 'a'; c <= 'z'; c++);
+for (c = 'a'; c <= 'z'; c++)
+{
 _putchar(c);
+}
 _putchar('\n');
 }
