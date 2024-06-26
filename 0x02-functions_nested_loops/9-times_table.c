@@ -11,7 +11,7 @@ int num, tim, prd;
 for (num = 0; num <= 9; num++)
 {
 _putchar(48);
-for (tim = 1; tim = 9; tim++)
+for (tim = 1; tim <= 9; tim++)
 _putchar(',');
 _putchar(' ');
 prd = num * tim;
