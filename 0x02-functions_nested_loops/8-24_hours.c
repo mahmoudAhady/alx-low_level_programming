@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
 * jack_bauer - print every minute of the day
+*@hr: hour input
+*@min: minut input
 */
 
 void jack_bauer(void)
