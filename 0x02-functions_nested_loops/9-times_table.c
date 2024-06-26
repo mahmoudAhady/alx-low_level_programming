@@ -12,6 +12,7 @@ for (num = 0; num <= 9; num++)
 {
 _putchar(48);
 for (tim = 1; tim <= 9; tim++)
+{
 _putchar(',');
 _putchar(' ');
 prd = num * tim;
@@ -21,6 +22,7 @@ _putchar(' ');
 else
 _putchar((prd / 10) + 48);
 _putchar((prd % 10) + 48);
+}
 }
 _putchar('\n');
 }
