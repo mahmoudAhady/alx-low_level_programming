@@ -23,6 +23,6 @@ else
 _putchar((prd / 10) + 48);
 _putchar((prd % 10) + 48);
 }
-}
 _putchar('\n');
+}
 }
