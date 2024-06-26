@@ -30,7 +30,7 @@ _putchar(' ');
 if (pr >= 100)
 {
 _putchar((pr / 100) + 48);
-_putchar((pr /10) % 10 + 48);
+_putchar((pr / 10) % 10 + 48);
 }
 else if (pr <= 99 && pr >= 10)
 _putchar((pr / 10) + 48);
