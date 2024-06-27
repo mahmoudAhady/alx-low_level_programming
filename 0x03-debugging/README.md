@@ -1,1 +1,1 @@
-this repository is for debugging manually
+this directory is solely for manual debugging 
