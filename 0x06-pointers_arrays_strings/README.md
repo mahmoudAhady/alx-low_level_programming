@@ -1,0 +1,1 @@
+this README is for the directory for pointers and arrays
